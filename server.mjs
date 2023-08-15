@@ -1,16 +1,7 @@
 import express from 'express';
-
-
-
-
-
-
 const app = express();
-
 const PORT = process.env.PORT || 3000;
 //app.get('/')
-
-
 app.listen(PORT, () => {
     console.log(`Example server listening on port ${PORT}`)
 })
